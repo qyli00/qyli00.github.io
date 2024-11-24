@@ -1,5 +1,47 @@
 ---
 ---
+@article{li2024gptwall,
+  author = {Li, Qiyu and Wen, Jinhe and Jin, Haojian},
+  title = {Governing Open Vocabulary Data Leaks Using an Edge LLM through Programming by Example},
+  year = {2024},
+  issue_date = {November 2024},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  volume = {8},
+  number = {4},
+  url = {https://doi.org/10.1145/3699760},
+  pdf = {https://dl.acm.org/doi/pdf/10.1145/3699760},
+  doi = {10.1145/3699760},
+  abstract = {A major concern with integrating large language model (LLM) services (e.g., ChatGPT) into workplaces is that employees may inadvertently leak sensitive information through their prompts. Since user prompts can involve arbitrary vocabularies, conventional data leak mitigation solutions, such as string-matching-based filtering, often fall short. We present GPTWall, a privacy firewall that helps internal admins create and manage policies to mitigate data leaks in prompts sent to external LLM services. GPTWall's key innovations are (1) introducing a lightweight LLM running on the edge to obfuscate target information in prompts and restore the information after receiving responses, and (2) helping admins author fine-grained disclosure policies through programming by example. We evaluated GPTWall with 12 participants and found that they could create an average of 17.7 policies within 30 minutes, achieving an increase of 29\% in precision and 22\% in recall over the state-of-the-art data de-identification tool.},
+  journal = {Proc. ACM Interact. Mob. Wearable Ubiquitous Technol.},
+  month = nov,
+  articleno = {179},
+  numpages = {31},
+  keywords = {data leak, edge computing, large language model, programming by example},
+  bibtex_show={true},
+  selected={true}
+}
+
+@inproceedings{wang2024moderator,
+  title={Moderator: Moderating Text-to-Image Diffusion Models through Fine-grained Context-based Policies},
+  author={Wang*, Peiran and Li*, Qiyu and Yu, Longxuan and Wang, Ziyao and Li, Ang and Jin, Haojian},
+  year = {2024},
+  publisher = {Association for Computing Machinery},
+  url = {https://doi.org/10.1145/3658644.3690327},
+  pdf = {https://arxiv.org/pdf/2408.07728},
+  code = {https://github.com/DataSmithLab/Moderator},
+  slides = {CCS-moderator.pdf},
+  doi = {10.1145/3658644.3690327},
+  booktitle = {Proceedings of the 2024 ACM SIGSAC Conference on Computer and Communications Security},
+  pages = {1181--1195},
+  numpages = {15},
+  keywords = {content moderation, text-to-image model, policy language},
+  location = {Salt Lake City, Utah, USA},
+  series = {CCS '24},
+  note = {<b style="color: darkred;">ACM CCS Distinguished Paper Award</b>},
+  bibtex_show={true},
+  selected={true}
+}
 
 @inproceedings{jia2023sheetpt,
   title={SHEETPT: spreadsheet pre-training based on hierarchical attention network},
@@ -10,6 +52,7 @@
   pages={12951--12958},
   year={2023},
   abbr={AAAI},
+  url={https://ojs.aaai.org/index.php/AAAI/article/view/26522},
   pdf={https://ojs.aaai.org/index.php/AAAI/article/view/26522/26294},
   bibtex_show={true},
   selected={true}
@@ -21,7 +64,7 @@
   booktitle={Proceedings of the 32nd ACM International Conference on Information and Knowledge Management},
   pages={234--244},
   abbr={CIKM},
-  pdf={https://arxiv.org/pdf/2308.09724},
+  url={https://arxiv.org/pdf/2308.09724},
   bibtex_show={true},
   year={2023}
 }

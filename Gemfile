@@ -1,4 +1,14 @@
 source 'https://rubygems.org'
+gem 'observer'
+gem 'ostruct'
+gem 'mutex_m'
+gem 'bigdecimal'
+gem 'drb'
+gem 'base64'
+gem 'nkf'
+gem 'csv'
+gem 'logger'
+gem 'fiddle'
 group :jekyll_plugins do
     gem 'classifier-reborn'
     gem 'jekyll'
@@ -17,7 +27,7 @@ group :jekyll_plugins do
     gem 'jekyll-toc'
     gem 'jekyll-twitter-plugin'
     gem 'jemoji'
-    gem 'mini_racer'
+    # gem 'mini_racer'  # temporarily disabled for local preview
     gem 'unicode_utils'
     gem 'webrick'
 end
